@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textAlignment="center"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/parentView">
 
     <ImageView
         android:id="@+id/toggle_choices_visibility"
@@ -15,6 +16,13 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/ic_iconmonstr_id_card_thin" />
 
+    <ImageView
+        android:id="@+id/addCard"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_iconmonstr_plus_thin" />
 
     <TextView
         android:id="@+id/flashcard_question"
@@ -81,5 +89,13 @@
         android:textAlignment="center"
         android:textSize="40sp"
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/ic_iconmonstr_pencil_8" />
 
 </RelativeLayout>

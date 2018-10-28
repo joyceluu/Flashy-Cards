@@ -6,4 +6,5 @@
     <color name="answer">#cfadd6</color>
     <color name="correct">#71ff42</color>
     <color name="wrong">#ff5900</color>
+    <color name="colorHint">#38427a</color>
 </resources>
