@@ -1,11 +1,10 @@
 ## Flashy-Cards
 ## App Description
 Simple flashcard android application created with Android Studio!
-📝 `NOTE` Paste this template at the top of your existing `README.md` file from the last lab.
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://i.imgur.com/vOJCEtR.gif" width=200><br>
 
 ## Required
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
