@@ -48,7 +48,7 @@
         android:visibility="invisible" />
 
     <TextView
-        android:id="@+id/answer1"
+        android:id="@+id/answer2"
         android:layout_width="291dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -57,21 +57,21 @@
         android:layout_marginTop="223dp"
         android:background="@color/answer"
         android:gravity="center"
-        android:text="Bill Clinton"
+        android:text="Barack Obama"
         android:textAlignment="center"
         android:textSize="40sp"
         android:visibility="invisible" />
 
     <TextView
-        android:id="@+id/answer2"
+        android:id="@+id/answer1"
         android:layout_width="288dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/answer1"
+        android:layout_below="@+id/answer2"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:background="@color/answer"
         android:gravity="center"
-        android:text="Barack Obama"
+        android:text="Bill Clinton"
         android:textAlignment="center"
         android:textSize="40sp"
         android:visibility="invisible" />
@@ -97,5 +97,24 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         app:srcCompat="@drawable/ic_iconmonstr_pencil_8" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/delete"
+        android:layout_marginEnd="103dp"
+        app:srcCompat="@drawable/ic_iconmonstr_arrow_3" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="61dp"
+        android:layout_marginStart="103dp"
+        app:srcCompat="@drawable/ic_iconmonstr_x_mark_thin" />
 
 </RelativeLayout>
